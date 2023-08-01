@@ -20,7 +20,7 @@ package_meta_data = IscMeta(
         "concepts and pages that are specific to the Fraunhofer ISC."
     ),
     # Specify the package version - use semantic versioning
-    version="0.0.1",
+    version="0.0.2",
     # Author(s)
     author=["Simon Stier", "Lukas Gold"],
     # List the full page titles of the pages to be included in the package
@@ -33,6 +33,12 @@ package_meta_data = IscMeta(
         "Category:OSWf77099f7f36240b6a9fa421647535375",  # IscBuilding
         "Category:OSW0cc1cdac0822496f9d9cd7f11d8cd02b",  # IscFloor
         "Category:OSW60930f31843f4602a56a5223308ae23e",  # IscRoom
+        "Category:OSW52a4518aa6a6479885a13afc078d191e",  # FhgUser
+        "Category:OSWf4f9c18f28594bc4923e61863ba5ddde",  # IscUser
+        "Category:OSWa13c672ad63e48378e4e0080697e977d",  # FhgGroup
+        "Category:OSWa13c672ad63e48378e4e0080697e977d",  # FhgOrganizationalSubUnit
+        "Category:OSW31de2378749041e7b3443cc5afb3d0fe",  # FhgDepartment
+        "Category:OSW25aad9e7985140c6bbda075833d93425",  # FraunhoferInstitute
     ],
 )
 # Provide the information needed (only) to create the page package
