@@ -20,7 +20,7 @@ package_meta_data = IscMeta(
         "concepts and pages that are specific to the Fraunhofer ISC."
     ),
     # Specify the package version - use semantic versioning
-    version="0.0.2",
+    version="0.2.0",
     # Author(s)
     author=["Simon Stier", "Lukas Gold"],
     # List the full page titles of the pages to be included in the package
@@ -36,7 +36,7 @@ package_meta_data = IscMeta(
         "Category:OSW52a4518aa6a6479885a13afc078d191e",  # FhgUser
         "Category:OSWf4f9c18f28594bc4923e61863ba5ddde",  # IscUser
         "Category:OSWa13c672ad63e48378e4e0080697e977d",  # FhgGroup
-        "Category:OSWa13c672ad63e48378e4e0080697e977d",  # FhgOrganizationalSubUnit
+        "Category:OSWa2b790323e94405caf35d87cbca7502d",  # FhgOrganizationalSubUnit
         "Category:OSW31de2378749041e7b3443cc5afb3d0fe",  # FhgDepartment
         "Category:OSW25aad9e7985140c6bbda075833d93425",  # FraunhoferInstitute
     ],
