@@ -20,7 +20,7 @@ package_meta_data = IscMeta(
         "concepts and pages that are specific to the Fraunhofer ISC."
     ),
     # Specify the package version - use semantic versioning
-    version="0.3.1",
+    version="0.4.0",
     # Author(s)
     author=["Simon Stier", "Lukas Gold"],
     # List the full page titles of the pages to be included in the package
