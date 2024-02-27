@@ -1,3 +1,7 @@
 [submodule "packages/de.fraunhofer.isc.osl.base"]
 	path = packages/de.fraunhofer.isc.osl.base
 	url = https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.base.git
+
+[submodule "packages/de.fraunhofer.isc.osl.lab"]
+	path = packages/de.fraunhofer.isc.osl.lab
+	url = https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.lab.git
