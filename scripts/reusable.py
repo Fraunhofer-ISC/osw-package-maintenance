@@ -27,6 +27,6 @@ class IscCreat(Package.CreationConfig):
 
     domain = "wiki-dev.open-semantic-lab.org"
     credentials_file_path: Optional[FilePath] = (
-        Path(r"C:\Users\gold\ownCloud\Personal") / "accounts.pwd.yaml"
+        Path(__file__).parent / "accounts.pwd.yaml"
     )
     # working_dir: is required but not provided here -> needs to be set in each script
