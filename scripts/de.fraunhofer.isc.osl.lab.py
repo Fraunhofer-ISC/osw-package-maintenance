@@ -5,7 +5,7 @@ from reusable import IscCreat, IscMeta
 # Provide information on the page package to be created
 package_meta_data = IscMeta(
     # Package name
-    name="ISC Base",
+    name="ISC Lab",
     # Package repository name - usually the GitHub repository name
     repo="de.fraunhofer.isc.osl.lab",
     # Package ID - usually the same as repo
@@ -24,7 +24,7 @@ package_meta_data = IscMeta(
         "world.opensemantic.lab",
     ],
     # Specify the package version - use semantic versioning
-    version="0.1.0",
+    version="0.1.1",
     # Author(s)
     author=["Simon Stier"],
     # List the full page titles of the pages to be included in the package
