@@ -24,23 +24,25 @@ package_meta_data = IscMeta(
         "world.opensemantic.lab",
     ],
     # Specify the package version - use semantic versioning
-    version="0.2.0",
+    version="0.5.0",
     # Author(s)
     author=["Simon Stier", "Lukas Scheuplein"],
     # List the full page titles of the pages to be included in the package
     # You can include a comment in the same line, stating the page label
     page_titles=[
         "Category:OSWd29aa2537f434fbe87c74ded34ee34cb",  # ZaaKleinauftrag
-        "Category:OSW3a86b2496454417296ad2cd784194da6",  # IscZaaKavTabs
         "Category:OSW89d01b6ec9e9412aa6fadf244f59cc78",  # ZaaKleinauftragZugewiesen
         "Category:OSW2b2649b89d1e4ae4866c8cd18e1652e2",  # AnalyticsTask
+        "Category:OSW55d23035243141ff95db51d4100ac31e",  # Client
+        "Category:OSW9e1d833694254a52a841a273282505ab",  # Contact Person
         "Category:OSWbd354f0cbc7c41d38ee301be9bb3ce8d",  # ObjectStatus
         "Item:OSWfaa3d40356f64db0ae0852935ec9ccb6",      # Store
         "Item:OSW60bd050bf7c5459182fe638351d9cea7",      # SendBack
         "Item:OSWe44f5c0404d8422dbd3fafbc66687264",      # Dispose
         "Category:OSWae1ec765ea47421695e9e8af5e212cb9",  # HazardClassification
-        "Item:OSWc9ccfe2e330d4ddcb33f02454fff6fcc",      # Ghs01ExplosiveSubstance
-        "Item:OSW052811fa2436493aa9ddc5f035542e21",      # Ghs02FlammableSubstance
+        "Item:OSW19896381a4204a69926cbe5cb3f4b66a",      # GHS00: No Hazard
+        "Item:OSWc9ccfe2e330d4ddcb33f02454fff6fcc",      # GHS01: Explosive substance
+        "Item:OSW052811fa2436493aa9ddc5f035542e21",      # GHS02: Flammable substance
         "Item:OSW339886c2284b4f7a8fa769ddea93ebc2",      # GHS03: Oxidizing substance
         "Item:OSW75506ab31f8b4e92b5be9d0ec04ee2f9",      # GHS04: Pressurized substance
         "Item:OSW7d0c0b54f1fe4598862c536da6c18d11",      # GHS05: Corrosive substance
@@ -55,6 +57,13 @@ package_meta_data = IscMeta(
         "Item:OSW645887b914d74ea2aae860f572932c73",      # Temperature sensitive
         "Item:OSW92db60f6a7e14865afc8ddb1394f5333",      # Unknown composition
         "Item:OSWf44e85b0e41d4e52aca6acbe6e8f5f1e",      # Water sensitive
+        "Item:OSWd0853fd43a364c509da2eb305d878349",      # Old mineral wool
+        "Property:HasReceiptDate",
+        "Property:HasLabAbbreviation",
+        "Property:HasCostAccountingId",
+        "Property:HasNominalExpenditureOfTime",
+        "Property:HasActualExpenditureOfTime",
+        "Property:HasActualExpenditureOfTimeComment",
     ],
 )
 # Provide the information needed (only) to create the page package
