@@ -24,7 +24,7 @@ package_meta_data = IscMeta(
         "de.fraunhofer.isc.osl.lab",
     ],
     # Specify the package version - use semantic versioning
-    version="0.1.0",
+    version="0.2.1",
     # Author(s)
     author=["Matthias Albert Popp", "Simon Stier"],
     # List the full page titles of the pages to be included in the package
@@ -37,8 +37,8 @@ package_meta_data = IscMeta(
 
         #"Category:OSW77e749fc598341ac8b6d2fff21574058",  # Software => part of world.opensemantic.base package
         #"Category:OSW8c56fd1e858f499da801691c5f2b7309",  # WebService => part of world.opensemantic.base package
-       # "Category:OSW72eae3c8f41f4a22a94dbc01974ed404",  # PrefectFlow
-       # "JsonSchema:PrefectWorkflowRuns", # should become part of world.opensemantic.core package; copy script does not work for this (main slot is missing)
+       # "Category:OSW72eae3c8f41f4a22a94dbc01974ed404",  # PrefectFlow  => part of world.opensemantic.base package
+       # "JsonSchema:PrefectWorkflowRuns", #  => part of world.opensemantic.base package
         #"JsonSchema:QuantityProperty", # part of world.opensemantic.core package; copy script does not work for this (main slot is missing)
         #"Property:HasTemperature",  # part of world.opensemantic.lab package
         #"Property:HasTime",  # part of world.opensemantic.lab package
@@ -81,6 +81,11 @@ package_meta_data = IscMeta(
 
         "Category:OSW69a417aee9f046a6819f9e95b865e0a6",  # EvaluationProcess
         "Category:OSWb6a227a110c54a4b95a9bfe0c41da102",  # CalculationOfSiliconContent
+        "Category:OSW7e33cec6edee4bd2bb27c8f3bc6977b4",  # GravimetricAndIcpDeterminationOfSiliconContent
+
+        # ToDo: add to world.opensemantic.lab package
+        #"Category:OSWdd31b71b06915d0182e40d15953f3daa",  # MeasurementDevice
+        #"Category:OSW7506cc847c8550bbbdba20e9c616cf85",  # Scale
     ],
 )
 # Provide the information needed (only) to create the page package
