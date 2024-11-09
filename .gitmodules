@@ -5,3 +5,9 @@
 [submodule "packages/de.fraunhofer.isc.osl.lab"]
 	path = packages/de.fraunhofer.isc.osl.lab
 	url = https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.lab.git
+[submodule "packages/de.fraunhofer.isc.osl.lab.order"]
+	path = packages/de.fraunhofer.isc.osl.lab.order
+	url = https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.lab.order
+[submodule ".\\packages\\de.fraunhofer.isc.osl.lab.analytics"]
+	path = .\\packages\\de.fraunhofer.isc.osl.lab.analytics
+	url = https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.lab.analytics
