@@ -19,6 +19,10 @@ package_meta_data = IscMeta(
         "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with "
         "concepts and pages that are specific to the Fraunhofer ISC."
     ),
+    # Specify the required PagePackages
+    requiredPackages=[
+        "world.opensemantic.base",
+    ],
     # Specify the package version - use semantic versioning
     version="0.4.1",
     # Author(s)
@@ -47,7 +51,23 @@ package_creation_config = IscCreat(
     / "packages"
     / package_meta_data.repo,
 )
-# Create the page package
-package_meta_data.create(
-    creation_config=package_creation_config,
-)
+
+if __name__ == "__main__":
+    # Create the page package
+    package_meta_data.create(
+        creation_config=package_creation_config,
+    )
+    # Check if all required pages are present
+    package_meta_data.check_required_pages(
+        params=IscMeta.CheckRequiredPagesParams(
+            creation_config=package_creation_config,
+            # Enable the following line to use the package creation script for the
+            #  check of listed pages in the requiredPackages instead of the
+            #  package.json (which is only up-to-date after the execution of the
+            #  package creation script)
+            #read_listed_pages_from_script=True,
+            #script_dir=Path(__file__).parent,
+            #additional_script_dirs=[Path(__file__).parent.parent.parent / "osw-package-maintenance" / "scripts"],
+            additional_package_dirs=[Path(__file__).parent.parent.parent / "osw-package-maintenance" / "packages"],
+        )
+    )

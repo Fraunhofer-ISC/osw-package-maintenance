@@ -66,6 +66,7 @@ package_meta_data = IscMeta(
         "Property:HasActualExpenditureOfTimeComment",
     ],
 )
+
 # Provide the information needed (only) to create the page package
 package_creation_config = IscCreat(
     # Specify the path to the working directory - where the package is stored on disk
@@ -73,12 +74,8 @@ package_creation_config = IscCreat(
     / "packages"
     / package_meta_data.repo,
 )
-# Create the page package
-package_meta_data.create(
-    creation_config=package_creation_config,
-)
 
-if __name__ == "XX__main__":
+if __name__ == "__main__":
     # Create the page package
     package_meta_data.create(
         creation_config=package_creation_config,
@@ -92,6 +89,8 @@ if __name__ == "XX__main__":
             #  package.json (which is only up-to-date after the execution of the
             #  package creation script)
             #read_listed_pages_from_script=True,
-            #script_dir=Path(__file__).parent.parent.parent + "osw-package-maintenance" + "scripts"
+            #script_dir=Path(__file__).parent,
+            #additional_script_dirs=[Path(__file__).parent.parent.parent / "osw-package-maintenance" / "scripts"],
+            additional_package_dirs=[Path(__file__).parent.parent.parent / "osw-package-maintenance" / "packages"],
         )
     )
