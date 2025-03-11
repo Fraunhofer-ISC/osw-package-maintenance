@@ -24,7 +24,7 @@ package_meta_data = IscMeta(
         "world.opensemantic.base",
     ],
     # Specify the package version - use semantic versioning
-    version="0.5.0",
+    version="0.6.0",
     # Author(s)
     author=["Simon Stier", "Lukas Gold"],
     # List the full page titles of the pages to be included in the package
@@ -42,10 +42,6 @@ package_meta_data = IscMeta(
         "Category:OSW31de2378749041e7b3443cc5afb3d0fe",  # FhgDepartment
         "Category:OSW25aad9e7985140c6bbda075833d93425",  # FraunhoferInstitute
         "Category:OSW5105e9b2ec054d3a8411fff5e6d3fd5a",  # FhGProject
-        "Category:OSW781ad17c7eef4161ade5a7b690aca6b5",  # EmploymentContractStatus
-        "Item:OSW62770459451644f3841c502df8a5cb1d",  # Active
-        "Item:OSWacf5f4db53264d29ae8744d03796be0b",  # Inactive
-        "Item:OSWa09571ab688e4395aa1a845234e3093b",  # Unknown
     ],
 )
 # Provide the information needed (only) to create the page package
